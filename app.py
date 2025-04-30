@@ -51,9 +51,6 @@ def scrape_job_card(card, company_name, card_number, total_cards):
         location_elem = card.select_one('.text-gray-400, .text-gray-500, .location')
         job['location'] = location_elem.get_text(strip=True) if location_elem else ''
         
-        date_elem = card.select_one('time, .text-xs, .text-sm, .date')
-        job['posted_date'] = date_elem.get_text(strip=True) if date_elem else ''
-        
     except Exception as e:
         print(f"\nError extracting job data: {e}")
     
