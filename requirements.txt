@@ -1,0 +1,11 @@
+streamlit==1.32.0
+pandas==2.1.0
+requests==2.31.0
+beautifulsoup4==4.12.0
+python-dotenv==1.0.0
+PyPDF2==3.0.1
+pillow==10.1.0
+pytesseract==0.3.10
+python-dateutil==2.8.2
+lxml==4.9.3
+html5lib==1.1
