@@ -1,0 +1,46 @@
+cookie:
+  expiry_days: 30
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    '123':
+      email: '123'
+      name: '123'
+      password: '123'
+    aaa:
+      email: aaa
+      name: aaa
+      password: aaa
+    aaaaa:
+      email: aaaaa
+      name: aaaaa
+      password: aaaaa
+    aaasd:
+      email: asdsa
+      name: aaasd
+      password: asdasd
+    aas:
+      email: aas
+      name: aas
+      password: aas
+    bbbb:
+      email: bbbb
+      name: bbbb
+      password: bbbb
+    hey:
+      email: hey
+      name: hey
+      password: hey
+    johndoe:
+      email: johndoe@email.com
+      name: John Doe
+      password: hashed_password_here
+    parraga:
+      email: parraga
+      name: parraga
+      password: parraga
+    vvv:
+      email: vvv
+      name: vvv
+      password: vvv
